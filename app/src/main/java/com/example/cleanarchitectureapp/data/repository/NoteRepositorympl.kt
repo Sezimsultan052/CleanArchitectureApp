@@ -1,27 +1,31 @@
 package com.example.cleanarchitectureapp.data.repository
 
-import androidx.lifecycle.MutableLiveData
+import android.util.Log
+import com.example.cleanarchitectureapp.core.Resource
+import com.example.cleanarchitectureapp.data.base.BaseRepository
 import com.example.cleanarchitectureapp.data.mapper.NoteMapper
-import com.example.cleanarchitectureapp.data.model.NoteDto
+import com.example.cleanarchitectureapp.data.room.NoteDao
 import com.example.cleanarchitectureapp.domain.model.Note
 import com.example.cleanarchitectureapp.domain.repository.NoteRepository
+import kotlinx.coroutines.flow.Flow
+import javax.inject.Inject
 
-class NoteRepositorympl : NoteRepository {
+ class NoteRepositoryImpl @Inject constructor(
+    private val noteDao: NoteDao
+) : NoteRepository, BaseRepository() {
 
     private val noteMapper = NoteMapper()
-    val liveData = MutableLiveData<ArrayList<NoteDto>>()
-    private var notes = arrayListOf<NoteDto>()
 
-    override fun addNote(note: Note) {
-        notes.add(noteMapper.toNoteDto(note))
-        liveData.value = notes
+    override fun addNote(note: Note): Flow<Resource<Unit>> = doRequest {
+        Log.e("TAG", "addNote: $note" )
+        noteDao.addNote(noteMapper.toNoteEntity(note))
     }
 
-    override fun deleteLastNote() {
-        notes.removeLast()
-        liveData.value = notes
+    override fun deleteNote(note: Note): Flow<Resource<Unit>> = doRequest {
+        noteDao.deleteNote(noteMapper.toNoteEntity(note))
     }
 
-    //delete
-
+    override fun getAllNotes(): Flow<Resource<List<Note>>> = doRequest {
+        noteDao.getAllNotes().map { entity -> noteMapper.toNote(entity) }
+    }
 }

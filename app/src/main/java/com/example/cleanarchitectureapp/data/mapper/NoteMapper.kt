@@ -1,16 +1,18 @@
 package com.example.cleanarchitectureapp.data.mapper
 
-import com.example.cleanarchitectureapp.data.model.NoteDto
+import com.example.cleanarchitectureapp.data.model.NoteEntity
 import com.example.cleanarchitectureapp.domain.model.Note
 
 class NoteMapper {
 
-    fun toNote(note: NoteDto) = Note (
+    fun toNote(note: NoteEntity) = Note(
+        id = note.id,
         title = note.title,
         text = note.text
-            )
+    )
 
-    fun toNoteDto(note: Note) = NoteDto (
+    fun toNoteEntity(note: Note) = NoteEntity(
+        id = note.id,
         title = note.title,
         text = note.text
     )
