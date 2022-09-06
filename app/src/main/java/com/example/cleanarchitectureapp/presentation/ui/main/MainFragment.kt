@@ -10,13 +10,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import androidx.fragment.app.viewModels
-import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import com.example.cleanarchitectureapp.R
-import com.example.cleanarchitectureapp.core.BaseFragment
-import com.example.cleanarchitectureapp.core.UIState
 import com.example.cleanarchitectureapp.databinding.FragmentMainBinding
-import com.example.cleanarchitectureapp.domain.model.Note
+import com.example.core.core.BaseFragment
+import com.example.core.core.UIState
+import com.example.domain.domain.model.Note
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -46,11 +45,11 @@ class MainFragment : BaseFragment(), OnItemClick {
     private fun setupObservers() {
         viewModel.notesState.subscribe { state ->
             when (state) {
-                is UIState.Error -> {
+                is UIState.Error-> {
                     Toast.makeText(requireContext(), state.error, Toast.LENGTH_SHORT).show()
                     binding.progressBar.isVisible = false
                 }
-                is UIState.Loading -> {
+                is UIState.Loading-> {
                     binding.progressBar.isVisible = true
                 }
                 is UIState.Success -> {

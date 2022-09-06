@@ -10,7 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.findNavController
 import com.example.cleanarchitectureapp.databinding.FragmentFormBinding
-import com.example.cleanarchitectureapp.domain.model.Note
+import com.example.domain.domain.model.Note
 
 class FormFragment : Fragment() {
     private lateinit var binding: FragmentFormBinding

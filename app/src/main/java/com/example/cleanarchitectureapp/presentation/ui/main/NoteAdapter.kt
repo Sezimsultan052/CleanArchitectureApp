@@ -3,13 +3,10 @@ package com.example.cleanarchitectureapp.presentation.ui.main
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.cleanarchitectureapp.app.App
-import com.example.cleanarchitectureapp.data.room.NoteDao
 import com.example.cleanarchitectureapp.databinding.NoteItemBinding
-import com.example.cleanarchitectureapp.domain.model.Note
-import javax.inject.Inject
+import com.example.domain.domain.model.Note
 
-//---------------КАК ПОЛУЧИТЬ ДОСТУП К ДБ?(INJECT OR ...)----------------
+
 class NoteAdapter(
     private val data: ArrayList<Note>,
     private val onItemClick: OnItemClick

@@ -1,12 +1,12 @@
 package com.example.cleanarchitectureapp.presentation.ui.main
 
 import android.util.Log
-import com.example.cleanarchitectureapp.core.BaseViewModel
-import com.example.cleanarchitectureapp.core.UIState
-import com.example.cleanarchitectureapp.domain.model.Note
-import com.example.cleanarchitectureapp.domain.use_case.AddNoteUseCase
-import com.example.cleanarchitectureapp.domain.use_case.DeleteLastNoteUseCase
-import com.example.cleanarchitectureapp.domain.use_case.GetAllNotesUseCase
+import com.example.core.core.BaseViewModel
+import com.example.core.core.UIState
+import com.example.domain.domain.model.Note
+import com.example.domain.domain.use_case.AddNoteUseCase
+import com.example.domain.domain.use_case.DeleteLastNoteUseCase
+import com.example.domain.domain.use_case.GetAllNotesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

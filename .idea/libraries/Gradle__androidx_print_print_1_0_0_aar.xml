@@ -1,0 +1,29 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.print:print:1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/caches/transforms-3/a1812247e09b98599781ba4a503d51ea/transformed/print-1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2c46b1390e1013742e09d5673d54abe9/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f1566d25cd8017766ddc6e03331e429e/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/41387dfe77e5ecf33db4f2a334570eb7/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/dcdc6ba8cd6b388524f666ca748cf615/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1ea999729d45c19889f4b8314a2d9ea8/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9f76ace151059a3c58a6099571518400/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/9f76ace151059a3c58a6099571518400/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/6febc2fdfb5482037d39da4ca3ef55c2/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/d697b7b4561fc52a020a85aa2cb2554e/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/2bdec9f8540967f1ec2339b212a9806d/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/9604238181441b55b405f8fb152d6c49/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/c1b38c5cfcbf7e665918327d4b373c28/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/edcf2fde5ca07636fcb5db86c0207eef/transformed/print-1.0.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/a1812247e09b98599781ba4a503d51ea/transformed/print-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/caches/transforms-3/a1812247e09b98599781ba4a503d51ea/transformed/print-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/caches/transforms-3/a1812247e09b98599781ba4a503d51ea/transformed/print-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/caches/modules-2/files-2.1/androidx.print/print/1.0.0/71fc2d9acf7cce6b96230c5af263268b1664914a/print-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

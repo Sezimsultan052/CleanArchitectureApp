@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:viewbinding:7.2.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/64a02c745f88d35173f461e3e7159e75/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ac4f7afe5dc920ec65ed1371ed59aaab/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/719e153499d7c56261aafa7ce5e7fd80/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/69b9d1a4a0a2c216cb4953166f45f99a/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f8987a60db09654187b4ad6efcee25c5/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/33fe9f847b935284016781e541807d72/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/33fe9f847b935284016781e541807d72/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/15731794e21f123a1cd7f90c7212c269/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/fc41539c37b50f9d19ae1221fdc7ce84/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/233d5d35f32cc0486b86711f03061a4b/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/bcac976e71b58d4e73bf115a7aba532e/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/014297d4a04848cbabb100a4dd4f667f/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/d556406645f5b9159a19635c01f5c3c6/transformed/viewbinding-7.2.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/5300b1d3de20e2f350bd9fd94f35ebe3/transformed/viewbinding-7.2.0/res" />
+      <root url="jar://$USER_HOME$/caches/transforms-3/5300b1d3de20e2f350bd9fd94f35ebe3/transformed/viewbinding-7.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/caches/transforms-3/5300b1d3de20e2f350bd9fd94f35ebe3/transformed/viewbinding-7.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.2.0/e82b47873058c0d7c8c0f676d5ea45bd93c1e786/viewbinding-7.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

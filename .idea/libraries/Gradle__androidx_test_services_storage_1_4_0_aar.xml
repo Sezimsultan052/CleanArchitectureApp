@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.services:storage:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/db7fbcee2cd4aa5574d24a5cbf21651c/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2a90e17c7b338afc1cc1ff42abde5aee/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0030b15bf33404c2c52a2e4d62595195/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/02508af6858d25d0cd1ea0aa77ab813b/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/44e198512146da4b3d06566a618d002c/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa66b6edce107afb7aba7bd76bfe7669/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/fa66b6edce107afb7aba7bd76bfe7669/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/ae093b28de002fc8cdbd13ab044d150f/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/debe97b72b428af9c83e2593c2750769/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/184f2255ded72c74a183c1c160a14838/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/8f5b696af85da8e9dd71b9c59b029e85/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/0ab7e56159b4d2104ebf71d815cd25b3/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/db03551bb7b74880b7ffd0633b859162/transformed/storage-1.4.0/res" />
+      <root url="file://$USER_HOME$/caches/transforms-3/a0a31860b94503dfe6c3ba6ecf87c5a5/transformed/storage-1.4.0/res" />
+      <root url="jar://$USER_HOME$/caches/transforms-3/a0a31860b94503dfe6c3ba6ecf87c5a5/transformed/storage-1.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/caches/transforms-3/a0a31860b94503dfe6c3ba6ecf87c5a5/transformed/storage-1.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/caches/modules-2/files-2.1/androidx.test.services/storage/1.4.0/27088f46bc0ab94523a20ccc56aa27e142662396/storage-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
